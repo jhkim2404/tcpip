@@ -70,7 +70,7 @@ namespace WIMS_DeviceEmulator
                         if (strIsOkBefore == "OK")
                         {
                             //read next 
-                            arrSendBytes = new byte[] { 0x0002                                          // STX : 1byte 20H
+                            arrSendBytes = new byte[] { 0x0002                                          // STX : 1byte 20H 
                                                         , 0x0032, 0x0031                                  // 품번 : 2byte 
                                                         , 0x0050                                          // 등급 U:55H / P:50H / O:4FH
                                                         , 0x0031, 0x0032, 0x0033, 0x002E, 0x0031, 0x0032  // 판정중량 6byte 소수점:2EH 1~9 : 31H~39H
